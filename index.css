@@ -23,7 +23,7 @@ body{
 }
 
 #imagem{
-    background-image: url(../img/forca.png);
+    background-image: url(https://raw.githubusercontent.com/agnaldoguima/jogoDaForca/master/img/forca.png);
     width: 234px;
     height: 272px;
     background-repeat: no-repeat;
