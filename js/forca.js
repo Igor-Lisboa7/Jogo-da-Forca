@@ -1,4 +1,4 @@
-// alert("Este é o meu primeiro projeto foi bem difícil, mas eu finalmente terminei. Quis fazer um pouco diferente de outras forcas que vejo por aí, ficou bem legal. AHHH LEIAM AS REGRAS NO PERGAMINHO ABAIXO DO TECLADO. Espero que gostem!")//
+// window.alert("Este é o meu primeiro projeto foi bem difícil, mas eu finalmente terminei. Quis fazer um pouco diferente de outras forcas que vejo por aí, ficou bem legal. AHHH LEIAM AS REGRAS NO PERGAMINHO ABAIXO DO TECLADO. Espero que gostem!")//
 
 let jogarNovamente = true
 let tentativas = 6
@@ -677,32 +677,33 @@ async function atraso(tempo){
     return new Promise(x => setTimeout(x, tempo))
 }
 
-ffunction carregaImagemForca(){
+function carregaImagemForca(){
     switch(tentativas){
         case 5:
-            document.getElementById("imagem").style.background  = "url('./img/forca01.png')";
-            break;
-        case 4:
-            document.getElementById("imagem").style.background  = "url('./img/forca02.png')";
-            break;
-        case 3:
-            document.getElementById("imagem").style.background  = "url('./img/forca03.png')";
-            break;
-        case 2:
-            document.getElementById("imagem").style.background  = "url('./img/forca04.png')";
-            break;
-        case 1:
-            document.getElementById("imagem").style.background  = "url('./img/forca05.png')";
-            break;
-        case 0:
-            document.getElementById("imagem").style.background  = "url('./img/forca06.png')";
-            break;
-        default:
-            document.getElementById("imagem").style.background  = "url('./img/forca.png')";
-            break;
-    }
-}
+        document.getElementById("imagem").style.background = "url('./img/forca01.png')";
+        break;
+    case 4:
+        document.getElementById("imagem").style.background = "url('./img/forca02.png')";
+        break;
+    case 3:
+        document.getElementById("imagem").style.background = "url('./img/forca03.png')";
+        break;
+    case 2:
+        document.getElementById("imagem").style.background = "url('./img/forca04.png')";
+        break;
+    case 1:
+        document.getElementById("imagem").style.background = "url('./img/forca05.png')";
+        break;
+    case 0:
+        document.getElementById("imagem").style.background = "url('./img/forca06.png')";
+        break;
+    default:
+        document.getElementById("imagem").style.background = "url('./img/forca.png')";
 
+    }
+    
+        
+}
 
 function abreModal(titulo, mensagem){
     let modalTitulo = document.getElementById("exampleModalLabel");
@@ -757,5 +758,4 @@ bntFechaModal.onclick = function(){
     modal.style.display = "none"
    
 }
-
 
