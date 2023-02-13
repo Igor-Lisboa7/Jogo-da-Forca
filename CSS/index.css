@@ -40,7 +40,7 @@ body{
 }
 
 .letras{
-    width: 16px;
+    width: 14px;
     text-align: center;
     border-bottom: 3px solid #000000;
     color: #ffffff;
@@ -51,7 +51,7 @@ body{
 }
 
 .letrasEspaco{
-    width: 16px;
+    width: 14px;
     text-align: center;
     color: #ffffff;
     padding: 2px;
@@ -66,8 +66,8 @@ body{
 }
 
 .teclas button{
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
     margin: 3px;
     margin-bottom: 5px;
     cursor: pointer;
@@ -82,8 +82,8 @@ body{
 
 
 .teclas2 button{
-    width: 21px;
-    height: 18px;
+    width: 18px;
+    height: 15px;
     margin: 3px;
     margin-bottom: 5px;
     cursor: pointer;
