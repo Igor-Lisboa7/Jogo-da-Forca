@@ -23,7 +23,7 @@ body{
 }
 
 #imagem{
-    background-image: url(./img/forca.png);
+    background-image: url(../img/forca.png);
     width: 234px;
     height: 272px;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ body{
 }
 
 .letras{
-    width: 14px;
+    width: 16px;
     text-align: center;
     border-bottom: 3px solid #000000;
     color: #ffffff;
@@ -51,7 +51,7 @@ body{
 }
 
 .letrasEspaco{
-    width: 14px;
+    width: 16px;
     text-align: center;
     color: #ffffff;
     padding: 2px;
@@ -61,13 +61,13 @@ body{
 }
 
 #teclado{
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
 
 .teclas button{
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     margin: 3px;
     margin-bottom: 5px;
     cursor: pointer;
@@ -82,8 +82,8 @@ body{
 
 
 .teclas2 button{
-    width: 18px;
-    height: 15px;
+    width: 21px;
+    height: 18px;
     margin: 3px;
     margin-bottom: 5px;
     cursor: pointer;
@@ -236,216 +236,3 @@ body{
         width: 24.0px;
         height: 24.0px;
     }
-    #categoria{
-        font-size: 1.5em;
-    }
-    #dicas{
-        margin-top: 30px;
-        color: #040535;
-        font-size: 1.5em;
-    }
-    .modal-container{
-     width: 100%;   
-    }
-    .modal-header-add-palavra{
-        width: 50%;
-    }
-}
-
-@media (min-width: 321px) {
-    .teclas2 button{
-        width: 28.0px;
-        height: 24.0px;
-    }
-    #categoria{
-        font-size: 1.5em;
-    }
-    #dicas{
-        margin-top: 30px;
-        color: #040535;
-        font-size: 1.5em;
-    }
-}
-
-@media (min-width: 376px) {
-    .teclas button{
-        width: 28px;
-        height: 28px;
-    }
-    #palavra-secreta{
-        font-size: 1.3em;
-    }
-    .letras{
-        width: 18px;
-    }
-    #categoria{
-        font-size: 1.5em;
-    }
-    #dicas{
-        margin-top: 30px;
-        color: #040535;
-        font-size: 1.5em;
-    }
-  
-}
-
-@media (min-width: 376px) {
-    .teclas2 button{
-        width: 32px;
-        height: 28px;
-    }
-    #palavra-secreta{
-        font-size: 1.3em;
-    }
-    .letras{
-        width: 18px;
-    }
-    #categoria{
-        font-size: 1.5em;
-    }
-    #dicas{
-        margin-top: 30px;
-        color: #040535;
-        font-size: 1.5em;
-    }
-}
-
-@media (min-width: 426px) {
-    .teclas button{
-        width: 36px;
-        height: 36px;
-    }
-    #palavra-secreta{
-        font-size: 1.8em;
-    }
-    .letras{
-        width: 20px;
-    }
-    #categoria{
-        font-size: 1.5em;
-    }
-    #dicas{
-        margin-top: 30px;
-        color: #040535;
-        font-size: 1.5em;
-    }
-  
-    
-}
-
-@media (min-width: 426px) {
-    .teclas2 button{
-        width: 41px;
-        height: 36px;
-    }
-    #palavra-secreta{
-        font-size: 1.8em;
-    }
-    .letras{
-        width: 20px;
-    }
-    #categoria{
-        font-size: 1.6em;
-    }
-    #dicas{
-        margin-top: 30px;
-        color: #040535;
-        font-size: 1.6em;
-    }
-}
-
-@media (min-width: 769px) {
-    .teclas button{
-        width: 68px;
-        height: 68px;
-        font-size: 1.8em;
-    }
-    #palavra-secreta{
-        font-size: 1.5em;
-    }
-    .letras{
-        width: 38px;
-    }
-    #categoria{
-        font-size: 2.3em;
-    }
-    #dicas{
-        margin-top: 30px;
-        color: #040535;
-        font-size: 2em;
-    }
-   
-}
-
-@media (min-width: 769px) {
-    .teclas2 button{
-        width: 76px;
-        height: 68px;
-        font-size: 1.8em;
-    }
-    #palavra-secreta{
-        font-size: 1.5em;
-    }
-    .letras{
-        width: 38px;
-    }
-    #categoria{
-        font-size: 2.3em;
-    }
-    #dicas{
-        margin-top: 30px;
-        color: #040535;
-        font-size: 2em;
-    }
-}
-
-@media (min-width: 1025px) {
-    .teclas button{
-        width: 86px;
-        height: 86px;
-        font-size: 1.8em;
-    }
-    #palavra-secreta{
-        font-size: 1.5em;
-    }
-    .letras{
-        width: 38px;
-    }
-    #categoria{
-        font-size: 2.3em;
-    }
-    #dicas{
-        margin-top: 30px;
-        color: #040535;
-        font-size: 2em
-    }
-    
-    
-}
-
-@media (min-width: 1025px) {
-    .teclas2 button{
-        width: 96px;
-        height: 86px;
-        font-size: 1.8em;
-    }
-    #palavra-secreta{
-        font-size: 1.5em;
-    }
-    .letras{
-        width: 38px;
-    }
-    #categoria{
-        font-size: 2.3em;
-    }
-    #dicas{
-        margin-top: 30px;
-        color: #040535;
-        font-size: 2em;
-    }
-}
-
-
-
-
-    
