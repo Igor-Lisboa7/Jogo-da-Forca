@@ -1,4 +1,4 @@
-// window.alert("Este é o meu primeiro projeto foi bem difícil, mas eu finalmente terminei. Quis fazer um pouco diferente de outras forcas que vejo por aí, ficou bem legal. AHHH LEIAM AS REGRAS NO PERGAMINHO ABAIXO DO TECLADO. Espero que gostem!")//
+// alert("Este é o meu primeiro projeto foi bem difícil, mas eu finalmente terminei. Quis fazer um pouco diferente de outras forcas que vejo por aí, ficou bem legal. AHHH LEIAM AS REGRAS NO PERGAMINHO ABAIXO DO TECLADO. Espero que gostem!")//
 
 let jogarNovamente = true
 let tentativas = 6
