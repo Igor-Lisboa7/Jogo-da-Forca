@@ -240,7 +240,7 @@ body{
         font-size: 1.5em;
     }
     #dicas{
-        margin-top: 30px;
+        margin-top: 15px;
         color: #040535;
         font-size: 1.5em;
     }
@@ -248,8 +248,8 @@ body{
 
 @media (min-width: 376px) {
     .teclas button{
-        width: 27px;
-        height: 27px;
+        width: 25px;
+        height: 25px;
     }
 }
 
@@ -260,13 +260,13 @@ body{
     width: 18px;
 }
 #categoria{
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 @media (min-width: 376px) {
     .teclas2 button{
-        width: 31px;
-        height: 27px;
+        width: 30px;
+        height: 25px;
     }
     #palavra-secreta{
         font-size: 1.3em;
@@ -281,8 +281,8 @@ body{
 
 @media (min-width: 426px) {
     .teclas button{
-        width: 33px;
-        height: 33px;
+        width: 30px;
+        height: 30px;
     }
     #palavra-secreta{
         font-size: 1.8em;
@@ -294,7 +294,7 @@ body{
         font-size: 1.5em;
     }
     #dicas{
-        margin-top: 30px;
+        margin-top: 20px;
         color: #040535;
         font-size: 1.5em;
     }
@@ -304,27 +304,27 @@ body{
 
 @media (min-width: 426px) {
     .teclas2 button{
-        width: 37px;
-        height: 33px;
+        width: 32px;
+        height: 29px;
     }
 }
 @media (min-width: 769px) {
     .teclas button{
-        width: 48px;
-        height: 48px;
+        width: 36px;
+        height: 36px;
         font-size: 1.8em;
     }
     #palavra-secreta{
         font-size: 1.5em;
     }
     .letras{
-        width: 38px;
+        width: 35px;
     }
     #categoria{
         font-size: 2.3em;
     }
     #dicas{
-        margin-top: 30px;
+        margin-top: 24px;
         color: #040535;
         font-size: 2em;
     }
@@ -333,15 +333,15 @@ body{
 
 @media (min-width: 769px) {
     .teclas2 button{
-        width: 56px;
-        height: 48px;
+        width: 40px;
+        height: 36px;
         font-size: 1.8em;
     }
 }
 @media (min-width: 1025px) {
     .teclas button{
-        width: 66px;
-        height: 66px;
+        width: 46px;
+        height: 46px;
         font-size: 1.8em;
     }
     #palavra-secreta{
@@ -364,8 +364,8 @@ body{
 
 @media (min-width: 1025px) {
     .teclas2 button{
-        width: 76px;
-        height: 66px;
+        width: 50px;
+        height: 47px;
         font-size: 1.8em;
     }
 }
