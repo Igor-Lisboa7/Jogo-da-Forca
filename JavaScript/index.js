@@ -680,22 +680,22 @@ async function atraso(tempo){
 function carregaImagemForca(){
     switch(tentativas){
         case 5:
-        document.getElementById("imagem").style.background = "url('.img/forca01.png')";
+        document.getElementById("imagem").style.background = "url('https://raw.githubusercontent.com/Igor-Lisboa7/Jogo-da-Forca/main/Img/forca01.png')";
         break;
     case 4:
-        document.getElementById("imagem").style.background = "url('./img/forca02.png')";
+        document.getElementById("imagem").style.background = "url('https://raw.githubusercontent.com/Igor-Lisboa7/Jogo-da-Forca/main/Img/forca02.png')";
         break;
     case 3:
-        document.getElementById("imagem").style.background = "url('./img/forca03.png')";
+        document.getElementById("imagem").style.background = "url('https://raw.githubusercontent.com/Igor-Lisboa7/Jogo-da-Forca/main/Img/forca03.png')";
         break;
     case 2:
-        document.getElementById("imagem").style.background = "url('./img/forca04.png')";
+        document.getElementById("imagem").style.background = "url('https://raw.githubusercontent.com/Igor-Lisboa7/Jogo-da-Forca/main/Img/forca04.png')";
         break;
     case 1:
-        document.getElementById("imagem").style.background = "url(./img/forca05.png')";
+        document.getElementById("imagem").style.background = "url(https://raw.githubusercontent.com/Igor-Lisboa7/Jogo-da-Forca/main/Img/forca05.png')";
         break;
     case 0:
-        document.getElementById("imagem").style.background = "url('./img/forca06.png')";
+        document.getElementById("imagem").style.background = "url('https://raw.githubusercontent.com/Igor-Lisboa7/Jogo-da-Forca/main/Img/forca06.png')";
         break;
     default:
         document.getElementById("imagem").style.background = "url('./img/forca.png')";
